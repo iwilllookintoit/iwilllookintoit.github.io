@@ -10,8 +10,15 @@ padding: 5px;
 background: #FFA500;
 margin: 0 0 20px;
 }
-</style> 
-<div id="countup">
+</style>
+
+<h2 style="text-align: center;">
+<strong>Hillary Clinton has been looking into releasing her </strong>
+<strong>transcripts for paid speeches to Wall St. and other </strong>
+<strong>special interests for </strong></h2>
+
+<div id="countup" style="text-align:center;">
+<h1>
   It's been
   <p id="days">00</p>
   <p class="timeRefDays">days</p>
@@ -21,6 +28,7 @@ margin: 0 0 20px;
   <p class="timeRefMinutes">minutes</p>
   <p id="seconds">00</p>
   <p class="timeRefSeconds">second</p>
+  </h1>
 </div>
 <script>
 /*
@@ -29,7 +37,7 @@ margin: 0 0 20px;
 */
 window.onload=function() {
   // Month,Day,Year,Hour,Minute,Second
-  upTime('jan,01,2014,00:00:00'); // ****** Change this line!
+  upTime('feb,03,2016,21:40:00'); // ****** Change this line!
 }
 function upTime(countTo) {
   now = new Date();
